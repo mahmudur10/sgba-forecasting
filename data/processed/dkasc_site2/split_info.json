@@ -1,0 +1,27 @@
+{
+  "site": "site2",
+  "system": "DKASC Site 2 \u2014 eco-Kinetics, 26.5 kW, mono-Si, Dual-axis tracker, 2010",
+  "power_mode": "single",
+  "coverage_pct": 97.61055973838315,
+  "max_power_kw": 23.521066665649,
+  "mean_power_kw": 3.079533541113423,
+  "n_train": 12111,
+  "n_val": 2576,
+  "n_test": 2577,
+  "test_start": "2023-05-24 15:00:00",
+  "test_end": "2023-12-31 19:00:00",
+  "means": {
+    "power": 4.9944882640962645,
+    "temperature": 23.75265248987009,
+    "humidity": 28.70394741845729,
+    "ghi": 524.2082212550054,
+    "dhi": 104.91425156413824
+  },
+  "stds": {
+    "power": 4.436193696928387,
+    "temperature": 11.643641862567891,
+    "humidity": 19.75324887542474,
+    "ghi": 351.0436928986732,
+    "dhi": 99.52295710395998
+  }
+}

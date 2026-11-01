@@ -1,0 +1,41 @@
+{
+  "location": "Singapore",
+  "latitude": 1.3521,
+  "longitude": 103.8198,
+  "climate": "tropical",
+  "data_source": "PVGIS-ERA5",
+  "years": "2016-2020",
+  "feature_names": [
+    "G(i)",
+    "T2m",
+    "WS10m",
+    "P"
+  ],
+  "target_name": "P",
+  "elev_col": "H_sun",
+  "input_dim": 4,
+  "seq_len": 24,
+  "horizon": 1,
+  "feature_means": [
+    204.6638641357422,
+    27.372835159301758,
+    4.274749279022217,
+    1087.2083740234375
+  ],
+  "feature_stds": [
+    274.8606872558594,
+    1.008223056793213,
+    4.870668411254883,
+    1488.5343017578125
+  ],
+  "y_mean": 2174.595458984375,
+  "y_std": 1437.8907470703125,
+  "elev_mean": 20.60018539428711,
+  "elev_std": 26.568077087402344,
+  "elev_min": -7.190000057220459,
+  "elev_max": 85.5199966430664,
+  "n_train": 13140,
+  "n_val": 4380,
+  "n_test": 4391,
+  "notes": "PVGIS-ERA5 does not provide RH; all models use 3 features (G(i), T2m, WS10m). Fair comparison."
+}

@@ -1,0 +1,41 @@
+{
+  "location": "Madrid, Spain",
+  "latitude": 40.42,
+  "longitude": -3.7,
+  "climate": "mediterranean",
+  "data_source": "PVGIS-ERA5",
+  "years": "2016-2020",
+  "feature_names": [
+    "G(i)",
+    "T2m",
+    "WS10m",
+    "P"
+  ],
+  "target_name": "P",
+  "elev_col": "H_sun",
+  "input_dim": 4,
+  "seq_len": 24,
+  "horizon": 1,
+  "feature_means": [
+    216.12477111816406,
+    16.152372360229492,
+    2.0999534130096436,
+    1151.874755859375
+  ],
+  "feature_stds": [
+    293.7969665527344,
+    9.34459114074707,
+    1.2015528678894043,
+    1583.8427734375
+  ],
+  "y_mean": 2136.1025390625,
+  "y_std": 1540.2802734375,
+  "elev_mean": 16.44951820373535,
+  "elev_std": 21.347503662109375,
+  "elev_min": -5.590000152587891,
+  "elev_max": 72.77999877929688,
+  "n_train": 13217,
+  "n_val": 4405,
+  "n_test": 4416,
+  "notes": "PVGIS-ERA5 does not provide RH; all models use 4 features (3 weather + P history). Fair comparison."
+}

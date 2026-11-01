@@ -1,0 +1,41 @@
+{
+  "location": "Oslo, Norway",
+  "latitude": 59.913,
+  "longitude": 10.752,
+  "climate": "cold-continental",
+  "data_source": "PVGIS-ERA5",
+  "years": "2016-2020",
+  "feature_names": [
+    "G(i)",
+    "T2m",
+    "WS10m",
+    "P"
+  ],
+  "target_name": "P",
+  "elev_col": "H_sun",
+  "input_dim": 4,
+  "seq_len": 24,
+  "horizon": 1,
+  "feature_means": [
+    142.8658447265625,
+    8.804519653320312,
+    2.035940170288086,
+    774.7240600585938
+  ],
+  "feature_stds": [
+    202.36610412597656,
+    8.860519409179688,
+    1.0260255336761475,
+    1143.0421142578125
+  ],
+  "y_mean": 1204.2520751953125,
+  "y_std": 1180.895263671875,
+  "elev_mean": 13.443861961364746,
+  "elev_std": 16.53626823425293,
+  "elev_min": -3.6700000762939453,
+  "elev_max": 53.470001220703125,
+  "n_train": 13295,
+  "n_val": 4430,
+  "n_test": 4441,
+  "notes": "PVGIS-ERA5 does not provide RH; all models use 4 features (3 weather + P history). Fair comparison."
+}
