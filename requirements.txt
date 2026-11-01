@@ -1,0 +1,22 @@
+# Core dependencies (required)
+numpy>=1.22
+pandas>=1.4
+torch>=2.0
+scipy>=1.7
+
+# Optional but recommended
+pvlib>=0.9
+matplotlib>=3.5
+xgboost>=1.6
+thop>=0.1
+scikit-learn>=1.0
+pyyaml>=6.0
+tqdm>=4.60
+
+# Development only (install with: pip install -e .[dev])
+# pytest>=7.0
+# pytest-cov>=3.0
+# black>=22.0
+# ruff>=0.1
+# mypy>=1.0
+# jupyter>=1.0

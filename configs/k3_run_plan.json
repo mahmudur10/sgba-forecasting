@@ -1,0 +1,114 @@
+{
+  "total_runs": 18,
+  "estimated_time_min": 36.0,
+  "runs": [
+    {
+      "variant": "SGBA-Elev",
+      "bias_type": "bilinear",
+      "site": "site7",
+      "seed": 42
+    },
+    {
+      "variant": "SGBA-Elev",
+      "bias_type": "bilinear",
+      "site": "site7",
+      "seed": 123
+    },
+    {
+      "variant": "SGBA-Elev",
+      "bias_type": "bilinear",
+      "site": "site7",
+      "seed": 7
+    },
+    {
+      "variant": "SGBA-Elev",
+      "bias_type": "bilinear",
+      "site": "site10",
+      "seed": 42
+    },
+    {
+      "variant": "SGBA-Elev",
+      "bias_type": "bilinear",
+      "site": "site10",
+      "seed": 123
+    },
+    {
+      "variant": "SGBA-Elev",
+      "bias_type": "bilinear",
+      "site": "site10",
+      "seed": 7
+    },
+    {
+      "variant": "SGBA-Elev",
+      "bias_type": "bilinear",
+      "site": "site2",
+      "seed": 42
+    },
+    {
+      "variant": "SGBA-Elev",
+      "bias_type": "bilinear",
+      "site": "site2",
+      "seed": 123
+    },
+    {
+      "variant": "SGBA-Elev",
+      "bias_type": "bilinear",
+      "site": "site2",
+      "seed": 7
+    },
+    {
+      "variant": "SGBA-ShuffledElev",
+      "bias_type": "shuffled",
+      "site": "site7",
+      "seed": 42
+    },
+    {
+      "variant": "SGBA-ShuffledElev",
+      "bias_type": "shuffled",
+      "site": "site7",
+      "seed": 123
+    },
+    {
+      "variant": "SGBA-ShuffledElev",
+      "bias_type": "shuffled",
+      "site": "site7",
+      "seed": 7
+    },
+    {
+      "variant": "SGBA-ShuffledElev",
+      "bias_type": "shuffled",
+      "site": "site10",
+      "seed": 42
+    },
+    {
+      "variant": "SGBA-ShuffledElev",
+      "bias_type": "shuffled",
+      "site": "site10",
+      "seed": 123
+    },
+    {
+      "variant": "SGBA-ShuffledElev",
+      "bias_type": "shuffled",
+      "site": "site10",
+      "seed": 7
+    },
+    {
+      "variant": "SGBA-ShuffledElev",
+      "bias_type": "shuffled",
+      "site": "site2",
+      "seed": 42
+    },
+    {
+      "variant": "SGBA-ShuffledElev",
+      "bias_type": "shuffled",
+      "site": "site2",
+      "seed": 123
+    },
+    {
+      "variant": "SGBA-ShuffledElev",
+      "bias_type": "shuffled",
+      "site": "site2",
+      "seed": 7
+    }
+  ]
+}

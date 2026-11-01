@@ -1,0 +1,63 @@
+{
+  "project_name": "SGBA Revision \u2014 SN Computer Science Major Revision",
+  "created": "2026-10-30 12:53:06",
+  "revision_root": "/content/drive/MyDrive/SGBA_Revision",
+  "original_sgba_root": "/content/drive/MyDrive/SGBA",
+  "python_version": "3.13.16",
+  "pytorch_version": "2.11.0+cu130",
+  "cuda_version": "13.0",
+  "gpu": "Tesla T4",
+  "packages": {
+    "pvlib": "0.16.1",
+    "thop": "installed",
+    "einops": "0.8.2"
+  },
+  "directories": {
+    "root": "/content/drive/MyDrive/SGBA_Revision",
+    "data_raw": "/content/drive/MyDrive/SGBA_Revision/data/raw",
+    "data_raw_pvgis": "/content/drive/MyDrive/SGBA_Revision/data/raw/pvgis_singapore",
+    "data_raw_oedi": "/content/drive/MyDrive/SGBA_Revision/data/raw/oedi_northeast",
+    "data_processed": "/content/drive/MyDrive/SGBA_Revision/data/processed",
+    "data_processed_dkasc": "/content/drive/MyDrive/SGBA_Revision/data/processed/dkasc",
+    "data_processed_pvgis": "/content/drive/MyDrive/SGBA_Revision/data/processed/pvgis_singapore",
+    "data_processed_oedi": "/content/drive/MyDrive/SGBA_Revision/data/processed/oedi_northeast",
+    "data_solar_position": "/content/drive/MyDrive/SGBA_Revision/data/solar_position",
+    "models_checkpoints": "/content/drive/MyDrive/SGBA_Revision/models/checkpoints",
+    "results_metrics": "/content/drive/MyDrive/SGBA_Revision/results/metrics",
+    "results_plots": "/content/drive/MyDrive/SGBA_Revision/results/plots",
+    "results_predictions": "/content/drive/MyDrive/SGBA_Revision/results/predictions",
+    "results_efficiency": "/content/drive/MyDrive/SGBA_Revision/results/efficiency",
+    "configs": "/content/drive/MyDrive/SGBA_Revision/configs",
+    "logs": "/content/drive/MyDrive/SGBA_Revision/logs",
+    "code": "/content/drive/MyDrive/SGBA_Revision/code"
+  },
+  "dkasc_sites": {
+    "site7": {
+      "system": "CdTe, 7.0 kW, Fixed, 2008",
+      "lat": -23.7,
+      "lon": 133.87
+    },
+    "site10": {
+      "system": "mono-Si, 5.8 kW, Fixed, 2009",
+      "lat": -23.7,
+      "lon": 133.87
+    },
+    "site2": {
+      "system": "mono-Si, 26.5 kW, Tracker, 2010",
+      "lat": -23.7,
+      "lon": 133.87
+    }
+  },
+  "planned_external_sites": {
+    "pvgis_singapore": {
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "climate": "tropical"
+    },
+    "oedi_northeast": {
+      "lat": 42.36,
+      "lon": -72.52,
+      "climate": "humid continental"
+    }
+  }
+}

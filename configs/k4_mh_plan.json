@@ -1,0 +1,192 @@
+{
+  "experiment": "A3_multihorizon",
+  "horizons": [
+    1,
+    6,
+    12,
+    24
+  ],
+  "sites": [
+    "site7",
+    "site10",
+    "site2"
+  ],
+  "models": [
+    "SGBA-Elev",
+    "PatchTST"
+  ],
+  "seed": 42,
+  "epochs": 100,
+  "total_runs": 24,
+  "remaining_runs": 24,
+  "runs": [
+    {
+      "site": "site7",
+      "horizon": 1,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site7_h1_SGBA-Elev_seed42",
+      "n_test": 2577
+    },
+    {
+      "site": "site7",
+      "horizon": 1,
+      "model": "PatchTST",
+      "exp_id": "mh_site7_h1_PatchTST_seed42",
+      "n_test": 2577
+    },
+    {
+      "site": "site7",
+      "horizon": 6,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site7_h6_SGBA-Elev_seed42",
+      "n_test": 1492
+    },
+    {
+      "site": "site7",
+      "horizon": 6,
+      "model": "PatchTST",
+      "exp_id": "mh_site7_h6_PatchTST_seed42",
+      "n_test": 1492
+    },
+    {
+      "site": "site7",
+      "horizon": 12,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site7_h12_SGBA-Elev_seed42",
+      "n_test": 224
+    },
+    {
+      "site": "site7",
+      "horizon": 12,
+      "model": "PatchTST",
+      "exp_id": "mh_site7_h12_PatchTST_seed42",
+      "n_test": 224
+    },
+    {
+      "site": "site7",
+      "horizon": 24,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site7_h24_SGBA-Elev_seed42",
+      "n_test": 2334
+    },
+    {
+      "site": "site7",
+      "horizon": 24,
+      "model": "PatchTST",
+      "exp_id": "mh_site7_h24_PatchTST_seed42",
+      "n_test": 2334
+    },
+    {
+      "site": "site10",
+      "horizon": 1,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site10_h1_SGBA-Elev_seed42",
+      "n_test": 2577
+    },
+    {
+      "site": "site10",
+      "horizon": 1,
+      "model": "PatchTST",
+      "exp_id": "mh_site10_h1_PatchTST_seed42",
+      "n_test": 2577
+    },
+    {
+      "site": "site10",
+      "horizon": 6,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site10_h6_SGBA-Elev_seed42",
+      "n_test": 1492
+    },
+    {
+      "site": "site10",
+      "horizon": 6,
+      "model": "PatchTST",
+      "exp_id": "mh_site10_h6_PatchTST_seed42",
+      "n_test": 1492
+    },
+    {
+      "site": "site10",
+      "horizon": 12,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site10_h12_SGBA-Elev_seed42",
+      "n_test": 224
+    },
+    {
+      "site": "site10",
+      "horizon": 12,
+      "model": "PatchTST",
+      "exp_id": "mh_site10_h12_PatchTST_seed42",
+      "n_test": 224
+    },
+    {
+      "site": "site10",
+      "horizon": 24,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site10_h24_SGBA-Elev_seed42",
+      "n_test": 2334
+    },
+    {
+      "site": "site10",
+      "horizon": 24,
+      "model": "PatchTST",
+      "exp_id": "mh_site10_h24_PatchTST_seed42",
+      "n_test": 2334
+    },
+    {
+      "site": "site2",
+      "horizon": 1,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site2_h1_SGBA-Elev_seed42",
+      "n_test": 2577
+    },
+    {
+      "site": "site2",
+      "horizon": 1,
+      "model": "PatchTST",
+      "exp_id": "mh_site2_h1_PatchTST_seed42",
+      "n_test": 2577
+    },
+    {
+      "site": "site2",
+      "horizon": 6,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site2_h6_SGBA-Elev_seed42",
+      "n_test": 1495
+    },
+    {
+      "site": "site2",
+      "horizon": 6,
+      "model": "PatchTST",
+      "exp_id": "mh_site2_h6_PatchTST_seed42",
+      "n_test": 1495
+    },
+    {
+      "site": "site2",
+      "horizon": 12,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site2_h12_SGBA-Elev_seed42",
+      "n_test": 226
+    },
+    {
+      "site": "site2",
+      "horizon": 12,
+      "model": "PatchTST",
+      "exp_id": "mh_site2_h12_PatchTST_seed42",
+      "n_test": 226
+    },
+    {
+      "site": "site2",
+      "horizon": 24,
+      "model": "SGBA-Elev",
+      "exp_id": "mh_site2_h24_SGBA-Elev_seed42",
+      "n_test": 2332
+    },
+    {
+      "site": "site2",
+      "horizon": 24,
+      "model": "PatchTST",
+      "exp_id": "mh_site2_h24_PatchTST_seed42",
+      "n_test": 2332
+    }
+  ]
+}

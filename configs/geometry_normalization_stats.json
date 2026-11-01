@@ -1,0 +1,53 @@
+{
+  "ghi_envelope_stats": {
+    "site7": {
+      "mean": -0.5898347496986389,
+      "std": 0.4656181335449219,
+      "n_train_samples": 12133,
+      "envelope_min": -1.4726589918136597,
+      "envelope_max": 0.7961353659629822
+    },
+    "site10": {
+      "mean": -0.5898347496986389,
+      "std": 0.4656181335449219,
+      "n_train_samples": 12133,
+      "envelope_min": -1.4726589918136597,
+      "envelope_max": 0.7961353659629822
+    },
+    "site2": {
+      "mean": -0.5899413824081421,
+      "std": 0.46559470891952515,
+      "n_train_samples": 12135,
+      "envelope_min": -1.4727835655212402,
+      "envelope_max": 0.7959043383598328
+    }
+  },
+  "elevation_stats": {
+    "site7": {
+      "mean": 35.59490136672709,
+      "std": 22.894545552766488,
+      "n_train_samples": 12133,
+      "elevation_min": -61.911956150982206,
+      "elevation_max": 85.51469697138235
+    },
+    "site10": {
+      "mean": 35.59490136672709,
+      "std": 22.894545552766488,
+      "n_train_samples": 12133,
+      "elevation_min": -61.911956150982206,
+      "elevation_max": 85.51469697138235
+    },
+    "site2": {
+      "mean": 35.60143851936302,
+      "std": 22.898326054853538,
+      "n_train_samples": 12135,
+      "elevation_min": -61.911956150982206,
+      "elevation_max": 85.51469697138235
+    }
+  },
+  "alpha_ewma": 0.9,
+  "description": {
+    "ghi_envelope": "EWMA (alpha=0.9) of normalized GHI, computed on TRAINING set only.",
+    "elevation": "True solar elevation (degrees) from pvlib, computed at TRAINING timestamps only."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "headline_model": "SGBA-Elev",
+  "reasoning": [
+    "Wins on 2/3 sites (Site 7, Site 10)",
+    "Ties on Site 2 (within seed variance)",
+    "Lower variance on Site 7 (more stable)",
+    "Uses TRUE solar geometry from pvlib (justifies \"physics-informed\" framing)",
+    "Removes R2.2(a)-(d) critiques entirely",
+    "Cleaner story: deterministic astronomical calculation vs noisy proxy"
+  ],
+  "corrected_rmse_results": {
+    "site7": {
+      "ewma": 0.3774,
+      "elev": 0.3761,
+      "original": 0.3943
+    },
+    "site10": {
+      "ewma": 0.3469,
+      "elev": 0.3405,
+      "original": 0.3524
+    },
+    "site2": {
+      "ewma": 1.2505,
+      "elev": 1.2517,
+      "original": 1.3397
+    }
+  },
+  "improvement_vs_original": {
+    "site7": {
+      "ewma": "+4.6%",
+      "elev": "+4.6%"
+    },
+    "site10": {
+      "ewma": "+1.6%",
+      "elev": "+3.4%"
+    },
+    "site2": {
+      "ewma": "+6.7%",
+      "elev": "+6.6%"
+    }
+  },
+  "decision_date": "2026-10-30"
+}
